@@ -6,6 +6,10 @@
   "scripts": {
     "test": "node_modules/.bin/mocha --reporter nyan"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jdaudier/numberFormmater.git"
+  },
   "keywords": [
     "number",
     "formatter"

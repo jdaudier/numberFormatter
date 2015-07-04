@@ -1,0 +1,19 @@
+{
+  "name": "number-formatter",
+  "version": "0.0.1",
+  "description": "Formats number",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter nyan"
+  },
+  "keywords": [
+    "number",
+    "formatter"
+  ],
+  "author": "Joanne Daudier",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "~3.0.0",
+    "mocha": "~2.2.5"
+  }
+}

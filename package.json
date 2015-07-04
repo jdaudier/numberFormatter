@@ -1,5 +1,5 @@
 {
-  "name": "number-formatter",
+  "name": "@jdaudier/number-formatter",
   "version": "0.0.1",
   "description": "Formats number",
   "main": "index.js",

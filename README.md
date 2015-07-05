@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/jdaudier/numberFormmater.svg?branch=master)](https://travis-ci.org/jdaudier/numberFormmater)
 
+[![Coverage Status](https://coveralls.io/repos/jdaudier/numberFormmater/badge.svg)](https://coveralls.io/r/jdaudier/numberFormmater)
+
 Number Formatter
 =========
 

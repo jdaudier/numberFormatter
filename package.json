@@ -4,7 +4,8 @@
   "description": "Formats number",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/.bin/mocha --reporter nyan"
+    "test": "node_modules/.bin/mocha --reporter nyan",
+    "test-travis": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   "license": "MIT",
   "devDependencies": {
     "chai": "~3.0.0",
+    "istanbul": "^0.3.17",
     "mocha": "~2.2.5"
   }
 }

@@ -3,7 +3,7 @@
 Number Formatter
 =========
 
-A small library that adds commas
+A small library that adds commas to numbers
 
 ## Installation
 

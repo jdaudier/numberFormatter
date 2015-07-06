@@ -1,6 +1,4 @@
-[![Build Status](https://travis-ci.org/jdaudier/numberFormmater.svg?branch=master)](https://travis-ci.org/jdaudier/numberFormmater)
-
-[![Coverage Status](https://coveralls.io/repos/jdaudier/numberFormmater/badge.svg)](https://coveralls.io/r/jdaudier/numberFormmater)
+[![Build Status](https://travis-ci.org/jdaudier/numberFormatter.svg?branch=master)](https://travis-ci.org/jdaudier/numberFormatter)  [![Coverage Status](https://coveralls.io/repos/jdaudier/numberFormmater/badge.svg?branch=master)](https://coveralls.io/r/jdaudier/numberFormmater?branch=master)
 
 Number Formatter
 =========
@@ -9,11 +7,11 @@ A small library that adds commas
 
 ## Installation
 
-  `npm install number-formatter`
+  `npm install @jdaudier/number-formatter`
 
 ## Usage
 
-    var numFormatter = require('number-formatter');
+    var numFormatter = require('@jdaudier/number-formatter');
 
     var formattedNum = numFormatter(35666);
   

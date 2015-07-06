@@ -4,7 +4,7 @@ install:
   - npm install
 
 script:
-  - npm run test-travis
+  - npm run cover
 
 # Send coverage data to Coveralls
 after_script: "cat coverage/lcov.info | node_modules/coveralls/bin/coveralls.js"

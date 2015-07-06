@@ -5,11 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "node_modules/.bin/mocha --reporter nyan",
-    "test-travis": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
+    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jdaudier/numberFormmater.git"
+    "url": "https://github.com/jdaudier/numberFormatter.git"
   },
   "keywords": [
     "number",

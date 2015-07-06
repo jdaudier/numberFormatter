@@ -3,7 +3,7 @@
 var should = require('chai').should();
 var numFormatter = require('../index');
 
-describe('#numFormmatter', function() {
+describe('#numFormatter', function() {
     it('should convert single digits', function() {
         numFormatter(1).should.equal('1');
     });

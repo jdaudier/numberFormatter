@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/jdaudier/numberFormatter.svg?branch=master)](https://travis-ci.org/jdaudier/numberFormatter)  [![Coverage Status](https://coveralls.io/repos/jdaudier/numberFormmater/badge.svg?branch=master)](https://coveralls.io/r/jdaudier/numberFormmater?branch=master)
+[![Build Status](https://travis-ci.org/jdaudier/numberFormatter.svg?branch=master)](https://travis-ci.org/jdaudier/numberFormatter)  [![Coverage Status](https://coveralls.io/repos/jdaudier/numberFormatter/badge.svg?branch=master)](https://coveralls.io/r/jdaudier/numberFormatter?branch=master)
 
 Number Formatter
 =========

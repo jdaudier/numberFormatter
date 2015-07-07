@@ -31,5 +31,8 @@ Add unit tests for any new or changed functionality. Lint and test your code.
 ## Release History
 
 * 0.0.1 Initial release
+* 0.0.2 Add funny image to README
+* 0.0.3 Update test command
+
 
 ![img](https://getdrip.s3.amazonaws.com/uploads/image_upload/image/3314/embeddable_44acde4e-3999-48e0-b187-4762a8d1f75b.png)

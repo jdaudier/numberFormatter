@@ -34,6 +34,7 @@ Add unit tests for any new or changed functionality. Lint and test your code.
 * 0.0.2 Add funny image to README
 * 0.0.3 Update test command
 * 0.0.4 Update release history
+* 0.0.5 Update jsdoc param type
 
 
 ![img](https://getdrip.s3.amazonaws.com/uploads/image_upload/image/3314/embeddable_44acde4e-3999-48e0-b187-4762a8d1f75b.png)

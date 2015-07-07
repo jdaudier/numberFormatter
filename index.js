@@ -2,7 +2,7 @@
 
 /**
  * Adds commas to a number
- * @param  {String} number
+ * @param  {number} number
  * @return {String}
  */
 module.exports = function (number) {

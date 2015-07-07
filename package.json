@@ -1,6 +1,6 @@
 {
   "name": "@jdaudier/number-formatter",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Formats number",
   "main": "index.js",
   "scripts": {

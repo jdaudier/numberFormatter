@@ -1,38 +1,46 @@
 'use strict';
 
-var should = require('chai').should();
+var expect = require('chai').expect;
 var numFormatter = require('../index');
 
 describe('#numFormatter', function() {
     it('should convert single digits', function() {
-        numFormatter(1).should.equal('1');
+        var result = numFormatter(1);
+        expect(result).to.equal('1');
     });
 
     it('should convert double digits', function() {
-        numFormatter(12).should.equal('12');
+        var result = numFormatter(12);
+        expect(result).to.equal('12');
     });
 
     it('should convert triple digits', function() {
-        numFormatter(123).should.equal('123');
+        var result = numFormatter(123);
+        expect(result).to.equal('123');
     });
 
     it('should convert 4 digits', function() {
-        numFormatter(1234).should.equal('1,234');
+        var result = numFormatter(1234);
+        expect(result).to.equal('1,234');
     });
 
     it('should convert 5 digits', function() {
-        numFormatter(12345).should.equal('12,345');
+        var result = numFormatter(12345);
+        expect(result).to.equal('12,345');
     });
 
     it('should convert 6 digits', function() {
-        numFormatter(123456).should.equal('123,456');
+        var result = numFormatter(123456);
+        expect(result).to.equal('123,456');
     });
 
     it('should convert 7 digits', function() {
-        numFormatter(1234567).should.equal('1,234,567');
+        var result = numFormatter(1234567);
+        expect(result).to.equal('1,234,567');
     });
 
     it('should convert 8 digits', function() {
-        numFormatter(12345678).should.equal('12,345,678');
+        var result = numFormatter(12345678);
+        expect(result).to.equal('12,345,678');
     });
 });
